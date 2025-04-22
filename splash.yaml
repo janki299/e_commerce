@@ -1,0 +1,16 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/images/letter-t.png
+  image_dark: assets/images/letter-t.png
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/images/letter-t.png
+    image_dark: assets/images/letter-t.png
+
+  android_gravity: center  # Ensures the logo is centered on Android
+  ios_content_mode: scaleAspectFit  # Makes the logo scale while keeping aspect ratio on iOS
+
+  web: false
